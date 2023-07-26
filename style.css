@@ -1,0 +1,73 @@
+#main{
+    margin: 30px;
+    background-image: linear-gradient(to right, rgb(112, 210, 240), pink);
+}
+#text{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    word-spacing: 20px;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 10px;
+    padding-top: 40px;
+}
+#number{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid grey;
+    outline: none;
+}
+#button{
+    margin-left: 600px;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+}
+
+#display{
+    background-color: rgb(49, 49, 49);
+    height: 20rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+}
+#adjustment{
+    margin-left: 45%;
+    position: absolute;
+    margin-top: 120px;
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+}
+#display p{
+    height: 100%;
+    width: 100%;
+    /* background-color: white; */
+    text-align: center;
+    line-height: 80px;
+    margin: 0px;
+    border-top: 2px solid black;
+    font-size: xx-large;
+}
+#current{
+    background-color: white;
+}
+#next{
+    background-color: white;
+}
+p.next{
+    position: absolute;
+    top: 80px;
+    /* background-color: red; */
+    /* display: none; */
+}
+p.animate{
+    top: 0px;
+    /* display: block; */
+    transition: .5s;
+}
